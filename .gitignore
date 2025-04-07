@@ -1,0 +1,17 @@
+Це файл, який каже Git'у: **що не відслідковувати і не завантажувати на GitHub**.
+
+```gitignore
+
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+.vscode/
+
+.DS_Store
+
+.streamlit/
+
+*.csv
+venv/
+env/
