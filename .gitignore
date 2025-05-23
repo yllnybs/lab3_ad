@@ -1,0 +1,23 @@
+# наприклад такий мінімум
+cat > .gitignore <<EOF
+# macOS
+.DS_Store
+
+# Python venv
+venv/
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.txt
+
+# IDEs
+.vscode/
+.idea/
+EOF
